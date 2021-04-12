@@ -20,20 +20,30 @@
 .inquiry {
   width: 480px;
   height: 7rem;
-  background-color: #FCECEC;
-  text-decoration-color: #4D4D4D
 }
 .content p{
-  text-align: center;
+ text-align: center;
+}
+.side_menu .point{
+  background-color: #FCECEC;
+}
+.side_menu .point a{
+  color: #4D4D4D;
 }
 .button {
   width: 100px;
   height: 4rem;
-  padding: 10px;
-  font-size: 2rem;
+  margin: 10px;
+  font-size: 3rem;
   background-color: #008B8B;
   color: #fff;
   border-style: none;
+}
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .button:hover {
   opacity: 0.7;
